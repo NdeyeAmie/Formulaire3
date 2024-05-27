@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.em;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 70px;
+    border: 1px solid black;
+    width: 60%;
+    height: 500px;
+    margin-left: 15rem;
+  }
+  img {
+    width: 100%; 
+  }
+  
+  .form {
+    background-color: #221919;
+    width: 50%;
+    height: 500px;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  form {
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+  }
+  
+  @media (min-width: 480px) {
+    form {
+      /* padding: 2.5rem; */
+    
+    }
+  }
+
+  
+label {
+  color: #d1a97e;
+}
+
+  
+  input[type="text"] {
+    margin: 30px 0 0 0;
+    width: 98%;
+    min-height: 2rem;
+    border: none;
+    border-bottom: 1px solid #d1a97e;
+    outline: none;
+    color: white;
+    background-color: #221919;
+    font-size: 12px;
+  }
+
+  input[type="text"]::placeholder {
+    color: white;
+  }
+
+  input[type="number"]::placeholder {
+    color: white;
+  }
+
+  input[type="number"]{
+    margin: 30px 0 0 0;
+    width: 98%;
+    min-height: 2rem;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    background-color: #221919;
+    font-size: 12px; 
+  }
+
+  input,
+button,
+select {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+  select{
+    margin: 30px 0 0 0;
+    width: 100%; 
+    min-height: 2rem;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    background-color: #221919;
+  }
+
+  h3 {
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+  }
+
+  .circle {
+    display: flex;
+    gap: 1rem;
+    margin: 10px 0 0 0;
+  }
+
+  .circle-one {
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .circle-one h2 {
+    width: 30px;
+    text-align: center;
+     }
+
+.cicle-contenu  {
+  display: flex;
+  width: 90px;
+  height: 30px;
+  max-width: 100%;
+  text-align: center;
+}
+
+  .circle-two {
+    background-color: #d1a97e;
+     border-radius: 10%;
+
+  }
+
+  .circle-two h2{
+    background-color: black;
+    color: white;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .circle-two p{
+  margin: 5px;
+   font-size: 15px 
+  }
+
+  .circle-three{
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .circle-three h2{
+    width: 30px;
+    text-align: center;
+  } 
+
+  .circle-four {
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .circle-four h2 {
+    width: 30px;
+    text-align: center;
+  }
+
+
+  .circle-five {
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .circle-five h2 {
+    width: 30px;
+    text-align: center;
+  }
+
+  .btn p {
+    color: #d1a97e;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+  }
+  
+  .btn button {
+      font-size: 16px;
+      height: 45px;
+      width: 40%;
+      background-color: #d1a97e;
+      color: white;
+      border: none;
+      margin: 20px 0 0 0;
+  }
+/* media queri */
+
+@media screen and (max-width: 996px) {
+  .form {
+    width: 100%;
+  }
+
+  input{
+    width: 100%;
+    max-width: 56%;
+    min-height: 10rem;
+  }
+
+  img {
+    /* display: none; */
+    width: 100%;
+    height: 500px;
+  }
+}
+
+  @media screen and (max-width: 768px) {
+    body {
+      font-family: "Manrope", sans-serif;
+      position: fixed;
+      font-size: 15px;
+    }
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+   height: 50rem;
+    }
+
+    img {
+      width: 60%;
+      height: 500px;
+    }
+
+    .form {
+      margin-top: -37rem;
+      margin-right: 30rem;
+      width: 100%;
+      height: 850px;
+    }
+  
+    input{
+      /* margin: 30px 0 0 0; */
+      width: 100%;
+      max-width: 56%;
+      /* height: 8rem; */
+      min-height: 10rem;
+    }
+select{
+  max-width: 56%;
+}
+
+    h3 {
+      margin-top: 2rem;
+    }
+  
+    .circle {
+      margin-top: 2rem; 
+    }
+
+    .btn p {
+      margin-top: 2rem;
+    }
+    
+    .btn button {
+      margin-top: 2rem;
+    }
+   .input-container {
+    margin-right: 5rem;
+   }
+  }
+
